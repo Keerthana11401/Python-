@@ -1,0 +1,13 @@
+#PROGRAM 1
+
+radius=float(input("INPUT THE RADIUS OF THE CIRCLE :"))
+pi=3.14
+area= pi*radius*radius
+print("THE AREA OF THE CIRCLE WITH RADIUS",radius,"IS :",area)
+
+
+#PROGRAM 2
+
+extension=input("INPUT THE FILENAME : ")
+seperation=extension.split(".")
+print( "THE EXTENTION OF THE FILE IS:" seperation[-1])
